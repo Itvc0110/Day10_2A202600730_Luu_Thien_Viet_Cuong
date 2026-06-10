@@ -1,0 +1,36 @@
+[project]
+name = "day10-data-observability-lab-student"
+version = "0.1.0"
+description = "Student starter lab for Day 10 data pipeline, data observability, and RAG evaluation."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "chromadb>=1.0.12",
+  "datasets>=4.0.0",
+  "great-expectations>=1.16.1",
+  "langchain>=1.0.0",
+  "langchain-anthropic>=0.3.15",
+  "langchain-google-genai>=2.0.0",
+  "langchain-ollama>=0.3.3",
+  "langchain-openai>=1.0.1",
+  "pandas>=2.2.2",
+  "python-dotenv>=1.0.1",
+  "ragas>=0.3.0",
+  "requests>=2.32.3",
+  "sentence-transformers>=5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.2",
+]
+
+[build-system]
+requires = ["setuptools>=80.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

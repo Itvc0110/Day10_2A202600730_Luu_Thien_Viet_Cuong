@@ -1,0 +1,45 @@
+{
+  "report_name": "corrupted",
+  "total_checks": 7,
+  "passed": 6,
+  "failed": 1,
+  "success_rate": 0.8571428571428571,
+  "checks": [
+    {
+      "check": "row_count_minimum",
+      "status": "PASS",
+      "detail": "Row count: 24 (minimum: 5)"
+    },
+    {
+      "check": "paper_id_not_null",
+      "status": "PASS",
+      "detail": "Null paper_ids: 0"
+    },
+    {
+      "check": "paper_id_unique",
+      "status": "FAIL",
+      "detail": "Duplicate paper_ids: 3"
+    },
+    {
+      "check": "title_not_null",
+      "status": "PASS",
+      "detail": "Null/empty titles: 0"
+    },
+    {
+      "check": "summary_length",
+      "status": "PASS",
+      "detail": "Summaries with <50 chars: 0"
+    },
+    {
+      "check": "freshness_check",
+      "status": "PASS",
+      "detail": "Stale rows (>180 days): 5 (20.8%)"
+    },
+    {
+      "check": "text_for_embedding_not_null",
+      "status": "PASS",
+      "detail": "Missing text_for_embedding: 0"
+    }
+  ],
+  "row_count": 24
+}

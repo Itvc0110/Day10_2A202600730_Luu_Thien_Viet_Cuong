@@ -1,0 +1,806 @@
+[
+  {
+    "id": "q001",
+    "question_type": "summary",
+    "question": "What is the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' about?",
+    "ground_truth": "Abstract Large language models (LLMs) increasingly support reasoning, question answering, decision support, and retrieval-augmented knowledge work.",
+    "ground_truth_doc_ids": [
+      "10-21203_rs-3-rs-9882260_v1"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-20944_preprints202604-0339-v1",
+      "10-70121_001c-158711"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS)."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q002",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Kushal Budha, Nikesh Lagun",
+    "ground_truth_doc_ids": [
+      "10-21203_rs-3-rs-9882260_v1"
+    ],
+    "answer": "Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-20944_preprints202604-0339-v1"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q003",
+    "question_type": "date",
+    "question": "When was the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-06-02",
+    "ground_truth_doc_ids": [
+      "10-21203_rs-3-rs-9882260_v1"
+    ],
+    "answer": "2025-12-19",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-70121_001c-158711",
+      "10-1093_sleep_zsag091-0346",
+      "10-32473_flairs-39-1-141782"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q004",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-21203_rs-3-rs-9882260_v1"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-32473_flairs-39-1-141782"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q005",
+    "question_type": "summary",
+    "question": "What is the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' about?",
+    "ground_truth": "Large language models have demonstrated strong generative capability in question answering, dialogue, and other knowledge-intensive tasks.",
+    "ground_truth_doc_ids": [
+      "10-54254_2753-8818_2026-dl34055"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-2139_ssrn-6713979",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q006",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation'?",
+    "ground_truth": "Haopeng Yang",
+    "ground_truth_doc_ids": [
+      "10-54254_2753-8818_2026-dl34055"
+    ],
+    "answer": "Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-2139_ssrn-6713979",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q007",
+    "question_type": "date",
+    "question": "When was the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' published?",
+    "ground_truth": "2026-06-01",
+    "ground_truth_doc_ids": [
+      "10-54254_2753-8818_2026-dl34055"
+    ],
+    "answer": "2025-12-19",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-2139_ssrn-6713979",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q008",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-54254_2753-8818_2026-dl34055"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-2139_ssrn-6713979",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q009",
+    "question_type": "summary",
+    "question": "What is the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' about?",
+    "ground_truth": "Knowledge graphs (KGs) hold facts about the world as connected triples, and they have become a backbone for any system that needs to reason over linked information.",
+    "ground_truth_doc_ids": [
+      "10-22214_ijraset-2026-82233"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-22214_ijraset-2026-82233",
+      "10-3390_app16052244",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation\nAuthors: Sohail Khan\nCategories: \nPublished: 2026-05-31\nAbstract: ",
+      "Title: Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning\nAuthors: Hyewon Lee, Sungsu Lim\nCategories: \nPublished: 2026-02-26\nAbstract: Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems. NOISE_1488 NOISE_2535 NOISE_4582 NOISE_4811 NOISE_9279",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q010",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation'?",
+    "ground_truth": "Sohail Khan",
+    "ground_truth_doc_ids": [
+      "10-22214_ijraset-2026-82233"
+    ],
+    "answer": "Sohail Khan",
+    "retrieved_doc_ids": [
+      "10-22214_ijraset-2026-82233",
+      "10-3390_app16052244",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation\nAuthors: Sohail Khan\nCategories: \nPublished: 2026-05-31\nAbstract: ",
+      "Title: Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning\nAuthors: Hyewon Lee, Sungsu Lim\nCategories: \nPublished: 2026-02-26\nAbstract: Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems. NOISE_1488 NOISE_2535 NOISE_4582 NOISE_4811 NOISE_9279",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q011",
+    "question_type": "date",
+    "question": "When was the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-31",
+    "ground_truth_doc_ids": [
+      "10-22214_ijraset-2026-82233"
+    ],
+    "answer": "2026-05-31",
+    "retrieved_doc_ids": [
+      "10-22214_ijraset-2026-82233",
+      "10-3390_app16052244",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation\nAuthors: Sohail Khan\nCategories: \nPublished: 2026-05-31\nAbstract: ",
+      "Title: Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning\nAuthors: Hyewon Lee, Sungsu Lim\nCategories: \nPublished: 2026-02-26\nAbstract: Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems. NOISE_1488 NOISE_2535 NOISE_4582 NOISE_4811 NOISE_9279",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q012",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-22214_ijraset-2026-82233"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-22214_ijraset-2026-82233",
+      "10-3390_app16052244",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation\nAuthors: Sohail Khan\nCategories: \nPublished: 2026-05-31\nAbstract: ",
+      "Title: Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning\nAuthors: Hyewon Lee, Sungsu Lim\nCategories: \nPublished: 2026-02-26\nAbstract: Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems. NOISE_1488 NOISE_2535 NOISE_4582 NOISE_4811 NOISE_9279",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q013",
+    "question_type": "summary",
+    "question": "What is the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference' about?",
+    "ground_truth": "Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost.",
+    "ground_truth_doc_ids": [
+      "10-55041_isjem07213"
+    ],
+    "answer": "Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost.",
+    "retrieved_doc_ids": [
+      "10-55041_isjem07213",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-20944_preprints202604-0339-v1",
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "retrieved_contexts": [
+      "Title: Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference\nAuthors: Dr. Sumalatha P, Manoj Kumar\nCategories: \nPublished: 2026-05-06\nAbstract: Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q014",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference'?",
+    "ground_truth": "Dr. Sumalatha P, Manoj Kumar",
+    "ground_truth_doc_ids": [
+      "10-55041_isjem07213"
+    ],
+    "answer": "Dr. Sumalatha P, Manoj Kumar",
+    "retrieved_doc_ids": [
+      "10-55041_isjem07213",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-20944_preprints202604-0339-v1",
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "retrieved_contexts": [
+      "Title: Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference\nAuthors: Dr. Sumalatha P, Manoj Kumar\nCategories: \nPublished: 2026-05-06\nAbstract: Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q015",
+    "question_type": "date",
+    "question": "When was the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference' published?",
+    "ground_truth": "2026-05-06",
+    "ground_truth_doc_ids": [
+      "10-55041_isjem07213"
+    ],
+    "answer": "2026-05-06",
+    "retrieved_doc_ids": [
+      "10-55041_isjem07213",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-20944_preprints202604-0339-v1",
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "retrieved_contexts": [
+      "Title: Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference\nAuthors: Dr. Sumalatha P, Manoj Kumar\nCategories: \nPublished: 2026-05-06\nAbstract: Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q016",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-55041_isjem07213"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-55041_isjem07213",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-20944_preprints202604-0339-v1",
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "retrieved_contexts": [
+      "Title: Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference\nAuthors: Dr. Sumalatha P, Manoj Kumar\nCategories: \nPublished: 2026-05-06\nAbstract: Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q017",
+    "question_type": "summary",
+    "question": "What is the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' about?",
+    "ground_truth": "Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods.",
+    "ground_truth_doc_ids": [
+      "10-32473_flairs-39-1-141782"
+    ],
+    "answer": "Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods.",
+    "retrieved_doc_ids": [
+      "10-32473_flairs-39-1-141782",
+      "10-1093_sleep_zsag091-0346",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-70121_001c-158711"
+    ],
+    "retrieved_contexts": [
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability.",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS)."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q018",
+    "question_type": "authors",
+    "question": "Who authored the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models'?",
+    "ground_truth": "Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins",
+    "ground_truth_doc_ids": [
+      "10-32473_flairs-39-1-141782"
+    ],
+    "answer": "Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins",
+    "retrieved_doc_ids": [
+      "10-32473_flairs-39-1-141782",
+      "10-1093_sleep_zsag091-0346",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-70121_001c-158711"
+    ],
+    "retrieved_contexts": [
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability.",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS)."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q019",
+    "question_type": "date",
+    "question": "When was the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' published?",
+    "ground_truth": "2026-05-06",
+    "ground_truth_doc_ids": [
+      "10-32473_flairs-39-1-141782"
+    ],
+    "answer": "2024-05-06",
+    "retrieved_doc_ids": [
+      "10-32473_flairs-39-1-141782",
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability.",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q020",
+    "question_type": "categories",
+    "question": "What categories does the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-32473_flairs-39-1-141782"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-32473_flairs-39-1-141782",
+      "10-1093_sleep_zsag091-0346",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-70121_001c-158711"
+    ],
+    "retrieved_contexts": [
+      "Title: An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models\nAuthors: Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins\nCategories: \nPublished: 2024-05-06\nAbstract: Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability.",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS)."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q021",
+    "question_type": "summary",
+    "question": "What is the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' about?",
+    "ground_truth": "Abstract Introduction While Large Language Models (LLMs) offer generative capabilities, generic models often lack domain-specific grounding, leading to hallucinations in high-stakes contexts.",
+    "ground_truth_doc_ids": [
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-64898_2026-01-24-26344477"
+    ],
+    "retrieved_contexts": [
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: A retrieval-augmented generation large language model framework for accurate dementia identification from electronic health records\nAuthors: Liqin Wang, Baoren Liu, Richard Yang, Ya-Wen Chuang, Hossein Estiri, Shawn Murphy, Li Zhou, Gad A. Marshall\nCategories: \nPublished: 2026-01-25\nAbstract: Abstract Objective Accurate and scalable dementia phenotyping from electronic health records (EHRs) is foundational for population-level research, risk prediction, and learning health system interventions. Traditional rule- and keyword-based approaches are limited by inconsistent documentation and inability to capture clinical nuance. We aim to develop and evaluate a framework that leverages large language models (LLMs) with retrieval-augmented generation (RAG) to overcome these limitations and improve dementia identification from real-world EHR data. Methods Using EHR data from the Mass General Brigham health system, we first assembled a cohort of adults with potential dementia based on diagnosis codes, problem lists, dementia-related medications, and free-text note mentions. A subset of candidate cases underwent detailed manual chart review to assign gold-standard dementia status. With this labeled sample, we implemented and compared three approaches for dementia ascertainment: (1) a rule-based classifier leveraging structured EHR data, (2) large language models (LLMs) applied to keyword-filtered clinical note excerpts, and (3) a RAG-based LLM framework that integrates retrieved, context-rich note snippets. Within each approach, we evaluated multiple configurations of embedding models, retrieval methods, LLMs, structured-data inclusion, and prompts to identify the best-performing classifier. Performance was assessed using standard classification metrics, including sensitivity, specificity, positive predictive value (PPV), and F1 score, and supplemented by qualitative error analyses to characterize common sources of false positives and false negatives across methods. Results The RAG-based classifier achieved the highest performance (F1=0.933, sensitivity=91.1%, PPV=95.5%) compared to rule-based (F1=0.823, sensitivity=81.1%, PPV=83.5%) and keyword-filtered LLM (F1=0.903, sensitivity=91.7%, PPV=88.6%). Including ICD codes alongside free text in the RAG-based LLM pipeline significantly reduced the PPV and modestly decreased F-1 score. Error analysis revealed that structured-code dependence contributed to false positives, whereas unrecognized contextual cues in notes drove false negatives. Conclusion A RAG-based LLM pipeline without structured ICD codes improved dementia ascertainment from EHR data compared with ICD-based rules and keyword-based filtering. This approach can enhance dementia case identification and support patient care, predictive modeling and risk analysis."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q022",
+    "question_type": "authors",
+    "question": "Who authored the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine'?",
+    "ground_truth": "Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao",
+    "ground_truth_doc_ids": [
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "answer": "Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao",
+    "retrieved_doc_ids": [
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-64898_2026-01-24-26344477"
+    ],
+    "retrieved_contexts": [
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: A retrieval-augmented generation large language model framework for accurate dementia identification from electronic health records\nAuthors: Liqin Wang, Baoren Liu, Richard Yang, Ya-Wen Chuang, Hossein Estiri, Shawn Murphy, Li Zhou, Gad A. Marshall\nCategories: \nPublished: 2026-01-25\nAbstract: Abstract Objective Accurate and scalable dementia phenotyping from electronic health records (EHRs) is foundational for population-level research, risk prediction, and learning health system interventions. Traditional rule- and keyword-based approaches are limited by inconsistent documentation and inability to capture clinical nuance. We aim to develop and evaluate a framework that leverages large language models (LLMs) with retrieval-augmented generation (RAG) to overcome these limitations and improve dementia identification from real-world EHR data. Methods Using EHR data from the Mass General Brigham health system, we first assembled a cohort of adults with potential dementia based on diagnosis codes, problem lists, dementia-related medications, and free-text note mentions. A subset of candidate cases underwent detailed manual chart review to assign gold-standard dementia status. With this labeled sample, we implemented and compared three approaches for dementia ascertainment: (1) a rule-based classifier leveraging structured EHR data, (2) large language models (LLMs) applied to keyword-filtered clinical note excerpts, and (3) a RAG-based LLM framework that integrates retrieved, context-rich note snippets. Within each approach, we evaluated multiple configurations of embedding models, retrieval methods, LLMs, structured-data inclusion, and prompts to identify the best-performing classifier. Performance was assessed using standard classification metrics, including sensitivity, specificity, positive predictive value (PPV), and F1 score, and supplemented by qualitative error analyses to characterize common sources of false positives and false negatives across methods. Results The RAG-based classifier achieved the highest performance (F1=0.933, sensitivity=91.1%, PPV=95.5%) compared to rule-based (F1=0.823, sensitivity=81.1%, PPV=83.5%) and keyword-filtered LLM (F1=0.903, sensitivity=91.7%, PPV=88.6%). Including ICD codes alongside free text in the RAG-based LLM pipeline significantly reduced the PPV and modestly decreased F-1 score. Error analysis revealed that structured-code dependence contributed to false positives, whereas unrecognized contextual cues in notes drove false negatives. Conclusion A RAG-based LLM pipeline without structured ICD codes improved dementia ascertainment from EHR data compared with ICD-based rules and keyword-based filtering. This approach can enhance dementia case identification and support patient care, predictive modeling and risk analysis."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q023",
+    "question_type": "date",
+    "question": "When was the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' published?",
+    "ground_truth": "2026-05-01",
+    "ground_truth_doc_ids": [
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "answer": "2024-05-01",
+    "retrieved_doc_ids": [
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-64898_2026-01-24-26344477",
+      "10-4018_979-8-3373-5017-2-ch003"
+    ],
+    "retrieved_contexts": [
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: A retrieval-augmented generation large language model framework for accurate dementia identification from electronic health records\nAuthors: Liqin Wang, Baoren Liu, Richard Yang, Ya-Wen Chuang, Hossein Estiri, Shawn Murphy, Li Zhou, Gad A. Marshall\nCategories: \nPublished: 2026-01-25\nAbstract: Abstract Objective Accurate and scalable dementia phenotyping from electronic health records (EHRs) is foundational for population-level research, risk prediction, and learning health system interventions. Traditional rule- and keyword-based approaches are limited by inconsistent documentation and inability to capture clinical nuance. We aim to develop and evaluate a framework that leverages large language models (LLMs) with retrieval-augmented generation (RAG) to overcome these limitations and improve dementia identification from real-world EHR data. Methods Using EHR data from the Mass General Brigham health system, we first assembled a cohort of adults with potential dementia based on diagnosis codes, problem lists, dementia-related medications, and free-text note mentions. A subset of candidate cases underwent detailed manual chart review to assign gold-standard dementia status. With this labeled sample, we implemented and compared three approaches for dementia ascertainment: (1) a rule-based classifier leveraging structured EHR data, (2) large language models (LLMs) applied to keyword-filtered clinical note excerpts, and (3) a RAG-based LLM framework that integrates retrieved, context-rich note snippets. Within each approach, we evaluated multiple configurations of embedding models, retrieval methods, LLMs, structured-data inclusion, and prompts to identify the best-performing classifier. Performance was assessed using standard classification metrics, including sensitivity, specificity, positive predictive value (PPV), and F1 score, and supplemented by qualitative error analyses to characterize common sources of false positives and false negatives across methods. Results The RAG-based classifier achieved the highest performance (F1=0.933, sensitivity=91.1%, PPV=95.5%) compared to rule-based (F1=0.823, sensitivity=81.1%, PPV=83.5%) and keyword-filtered LLM (F1=0.903, sensitivity=91.7%, PPV=88.6%). Including ICD codes alongside free text in the RAG-based LLM pipeline significantly reduced the PPV and modestly decreased F-1 score. Error analysis revealed that structured-code dependence contributed to false positives, whereas unrecognized contextual cues in notes drove false negatives. Conclusion A RAG-based LLM pipeline without structured ICD codes improved dementia ascertainment from EHR data compared with ICD-based rules and keyword-based filtering. This approach can enhance dementia case identification and support patient care, predictive modeling and risk analysis.",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q024",
+    "question_type": "categories",
+    "question": "What categories does the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-1093_sleep_zsag091-0346"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-64898_2026-01-24-26344477"
+    ],
+    "retrieved_contexts": [
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: A retrieval-augmented generation large language model framework for accurate dementia identification from electronic health records\nAuthors: Liqin Wang, Baoren Liu, Richard Yang, Ya-Wen Chuang, Hossein Estiri, Shawn Murphy, Li Zhou, Gad A. Marshall\nCategories: \nPublished: 2026-01-25\nAbstract: Abstract Objective Accurate and scalable dementia phenotyping from electronic health records (EHRs) is foundational for population-level research, risk prediction, and learning health system interventions. Traditional rule- and keyword-based approaches are limited by inconsistent documentation and inability to capture clinical nuance. We aim to develop and evaluate a framework that leverages large language models (LLMs) with retrieval-augmented generation (RAG) to overcome these limitations and improve dementia identification from real-world EHR data. Methods Using EHR data from the Mass General Brigham health system, we first assembled a cohort of adults with potential dementia based on diagnosis codes, problem lists, dementia-related medications, and free-text note mentions. A subset of candidate cases underwent detailed manual chart review to assign gold-standard dementia status. With this labeled sample, we implemented and compared three approaches for dementia ascertainment: (1) a rule-based classifier leveraging structured EHR data, (2) large language models (LLMs) applied to keyword-filtered clinical note excerpts, and (3) a RAG-based LLM framework that integrates retrieved, context-rich note snippets. Within each approach, we evaluated multiple configurations of embedding models, retrieval methods, LLMs, structured-data inclusion, and prompts to identify the best-performing classifier. Performance was assessed using standard classification metrics, including sensitivity, specificity, positive predictive value (PPV), and F1 score, and supplemented by qualitative error analyses to characterize common sources of false positives and false negatives across methods. Results The RAG-based classifier achieved the highest performance (F1=0.933, sensitivity=91.1%, PPV=95.5%) compared to rule-based (F1=0.823, sensitivity=81.1%, PPV=83.5%) and keyword-filtered LLM (F1=0.903, sensitivity=91.7%, PPV=88.6%). Including ICD codes alongside free text in the RAG-based LLM pipeline significantly reduced the PPV and modestly decreased F-1 score. Error analysis revealed that structured-code dependence contributed to false positives, whereas unrecognized contextual cues in notes drove false negatives. Conclusion A RAG-based LLM pipeline without structured ICD codes improved dementia ascertainment from EHR data compared with ICD-based rules and keyword-based filtering. This approach can enhance dementia case identification and support patient care, predictive modeling and risk analysis."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q025",
+    "question_type": "summary",
+    "question": "What is the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation' about?",
+    "ground_truth": "This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation.",
+    "ground_truth_doc_ids": [
+      "10-20944_preprints202604-0339-v1"
+    ],
+    "answer": "This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation.",
+    "retrieved_doc_ids": [
+      "10-20944_preprints202604-0339-v1",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-55041_isjem07213",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference\nAuthors: Dr. Sumalatha P, Manoj Kumar\nCategories: \nPublished: 2026-05-06\nAbstract: Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q026",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation'?",
+    "ground_truth": "Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang",
+    "ground_truth_doc_ids": [
+      "10-20944_preprints202604-0339-v1"
+    ],
+    "answer": "Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang",
+    "retrieved_doc_ids": [
+      "10-20944_preprints202604-0339-v1",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q027",
+    "question_type": "date",
+    "question": "When was the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation' published?",
+    "ground_truth": "2026-04-06",
+    "ground_truth_doc_ids": [
+      "10-20944_preprints202604-0339-v1"
+    ],
+    "answer": "2026-04-06",
+    "retrieved_doc_ids": [
+      "10-20944_preprints202604-0339-v1",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-1093_sleep_zsag091-0346",
+      "10-70121_001c-158711"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: 0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine\nAuthors: Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao\nCategories: \nPublished: 2024-05-01\nAbstract: ",
+      "Title: The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models\nAuthors: Eason Ni\nCategories: \nPublished: 2026-03-15\nAbstract: Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS)."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q028",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation' belong to?",
+    "ground_truth": "Uncategorized",
+    "ground_truth_doc_ids": [
+      "10-20944_preprints202604-0339-v1"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10-20944_preprints202604-0339-v1",
+      "10-4018_979-8-3373-5017-2-ch003",
+      "10-2139_ssrn-6713979",
+      "10-2139_ssrn-6713979"
+    ],
+    "retrieved_contexts": [
+      "Title: Retrieval-Augmented Large Languag\nAuthors: Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang\nCategories: \nPublished: 2026-04-06\nAbstract: This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments. NOISE_8359 NOISE_5557 NOISE_1106 NOISE_3615 NOISE_7924",
+      "Title: Retrieval-Augmented Generation With Large Language Models\nAuthors: Dena Abu Laila, Qais Al-Na'amneh, Mahmoud Aljawarneh, Walid Dhifallah, Khaled Maabreh\nCategories: \nPublished: 2025-12-19\nAbstract: ",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;",
+      "Title: A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents\nAuthors: Zihan Chen, Lei Zheng, Di Zhu\nCategories: \nPublished: 2026-01-01\nAbstract: &lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in different directions: (1) GraphRAG changes what the model retrieves from: instead of a pile of text chunks indexed by similarity, it builds a knowledge graph of entities and their relations, summarizes densely connected regions, and retrieves over that. (2) Agentic RAG changes how retrieval happens: moving beyond one shot generation based on user query, an agent plans, acts, critiques its own work, keeps memory across steps, and then retrieves multiple times as needed. Recent work combines the two, with Karpathy's LLM Wiki as a salient example of non-tech-savvy solutions. The agent's planning, acting, critiquing, and remembering all operate over graph operations. The graph stops being a passive lookup table and becomes the space the agent moves through. This survey treats such combination as a research area in its own right. We organize recent primary papers on a 4x3 grid (four agent roles vs. three graph operations) grounded in a central observation: pure GraphRAG and standalone Agentic RAG each possess recurring failure modes, and the combination of the two paradigms can effectively mitigate these. The body of the survey covers seven method families that populate the grid: single-agent iterative traversal, self-evolving GraphRAG, RL-trained graph walkers, multi-agent graph systems, agentic graph construction, persistent graph memory, and hybrid structured\u2013unstructured retrieval. Three application areas ground the discussion: medicine, legal reasoning, and cyber threat intelligence. Furthermore, recent papers reach directly opposing conclusions about whether graphs are still needed once an agent is in the loop. We trace where the disagreement comes from, and discuss evaluation protocols that jointly score agent trajectories and retrievals, alongside the adversarial robustness of agent\u2013graph systems.&lt;/span&gt; &lt;/div&gt;"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  }
+]

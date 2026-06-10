@@ -1,0 +1,45 @@
+{
+  "report_name": "baseline",
+  "total_checks": 7,
+  "passed": 7,
+  "failed": 0,
+  "success_rate": 1.0,
+  "checks": [
+    {
+      "check": "row_count_minimum",
+      "status": "PASS",
+      "detail": "Row count: 23 (minimum: 5)"
+    },
+    {
+      "check": "paper_id_not_null",
+      "status": "PASS",
+      "detail": "Null paper_ids: 0"
+    },
+    {
+      "check": "paper_id_unique",
+      "status": "PASS",
+      "detail": "Duplicate paper_ids: 0"
+    },
+    {
+      "check": "title_not_null",
+      "status": "PASS",
+      "detail": "Null/empty titles: 0"
+    },
+    {
+      "check": "summary_length",
+      "status": "PASS",
+      "detail": "Summaries with <50 chars: 0"
+    },
+    {
+      "check": "freshness_check",
+      "status": "PASS",
+      "detail": "Stale rows (>180 days): 0 (0.0%)"
+    },
+    {
+      "check": "text_for_embedding_not_null",
+      "status": "PASS",
+      "detail": "Missing text_for_embedding: 0"
+    }
+  ],
+  "row_count": 23
+}

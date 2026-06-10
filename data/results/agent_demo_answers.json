@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What are the main topics covered in this paper corpus?",
+    "answer": "&lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations.",
+    "retrieved": [
+      "A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents",
+      "Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation",
+      "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference",
+      "Empowering farmers with artificial intelligence: a retrieval-augmented generation based large language model advisory framework"
+    ]
+  },
+  {
+    "question": "Tell me about a paper on retrieval augmented generation.",
+    "answer": "Retrieval-Augmented Generation (RAG) has emerged as a transformative approach for enhanc-ing large language models (LLMs) by integrating external knowledge sources to address limitations in parametric knowledge and factual accuracy.",
+    "retrieved": [
+      "Retrieval-Augmented Generation With Large Language Models",
+      "A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents",
+      "The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models",
+      "Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation"
+    ]
+  }
+]

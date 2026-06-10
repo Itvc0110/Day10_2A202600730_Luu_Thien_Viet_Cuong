@@ -1,0 +1,36 @@
+{
+  "original_rows": 23,
+  "corrupted_rows": 24,
+  "corruptions": [
+    {
+      "corruption": "drop_latest_records",
+      "affected": 2,
+      "detail": "Dropped 2 newest records"
+    },
+    {
+      "corruption": "blank_summary",
+      "affected": 3,
+      "detail": "Blanked summary in 3 rows"
+    },
+    {
+      "corruption": "inject_noise",
+      "affected": 4,
+      "detail": "Injected random noise into 4 summaries"
+    },
+    {
+      "corruption": "truncate_title",
+      "affected": 3,
+      "detail": "Truncated titles in 3 rows"
+    },
+    {
+      "corruption": "stale_published_date",
+      "affected": 5,
+      "detail": "Pushed published date back 2 years for 5 rows"
+    },
+    {
+      "corruption": "add_duplicates",
+      "affected": 3,
+      "detail": "Added 3 duplicate rows"
+    }
+  ]
+}
